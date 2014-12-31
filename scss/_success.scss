@@ -1,0 +1,24 @@
+/* Success Stories Page */
+.successStories {
+	.successStoryContent {
+		a.Link {
+			color: $orange;
+			&:hover {
+				color: $button-red;
+				text-decoration: none;
+			}
+		}
+		img.img-responsive {
+			margin-bottom: 5px;
+		}
+		.Title {
+			@extend %header;
+			font-size: 25px;
+		}
+		.Description {
+			font-family: Arial, sans-serif;
+			font-size: 13px;
+			color: #222222;
+		}
+	}
+}

@@ -1,0 +1,168 @@
+/* Widgets */
+
+// Widget Containers
+
+.events-widget,
+.widget-block {
+	position: relative;
+}
+
+
+// Widget Titles
+
+#sideWidgets {
+	.widget-title,
+	.twitter-wrapper h2 {
+		@extend %widget-title;
+	}
+}
+
+.widget-block {
+	.widget-title {
+		@extend %widget-title;
+		a {
+			display: block;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			color: $green;
+			&:hover {
+				color: $footer-green;
+				text-decoration: none;
+			}
+		}
+	}
+	h2 {
+		@extend %widget-title;
+	}
+}
+
+
+// Widget Content
+
+#sideWidgets {
+	.widget-block {
+		.widget-block-content {
+			ul.LinksList {
+				li {
+					&:before {
+						content: "\f0da";
+						font-family: FontAwesome;
+						color: $green;
+						padding-right: 5px;
+					}
+					a {
+						font-family: 'Roboto', sans-serif;
+						color: $green;
+						font-size: 12px;
+						&:hover {
+							color: $footer-green;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		.ConnectWithUs {
+			.Staff {
+				font-family: 'Roboto', sans-serif;
+				.Controls {
+					.button {
+						background: $dark-grey;
+					}
+				}
+				.FirstName,
+				.LastName {
+					display: inline;
+				}
+				.FirstName,
+				.LastName,
+				.Title {
+					color: $text-grey;
+					font-family: 'Roboto', sans-serif;
+					font-size: 14px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	#Sidebar_Downloads {
+		.SidebarTitle {
+			@extend %widget-title;
+		}
+		.SidebarText {
+			display: none;
+		}
+		.SidebarList {
+			ul {
+				li {
+					.SidebarListMyFavorites {
+						position: relative;
+						top: -7px;
+						cursor: pointer;
+					}
+					a {
+						font-family: Arial, sans-serif;
+						font-size: 11px;
+						color: #333333;
+						&:hover {
+							color: $footer-green;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Events
+
+.events-widget {
+	.event {
+		font-family: 'Roboto', sans-serif;
+		list-style: none;
+		margin: 0 0 20px 55px;
+		&:before {
+			color: $text-grey;
+			content: "\f073";
+			font-family: 'FontAwesome';
+			font-size: 20px;
+			left: 30px;
+			position: absolute;
+		}
+		.title a {
+			color: $green;
+			font-size: 17px;
+			font-weight: 900;
+			&:hover {
+				color: $footer-green;
+				text-decoration: none;
+			}
+		}
+		.date {
+			color: $black;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 2;
+		}
+		.description {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1.5;
+			color: $text-grey;
+		}
+	}
+}
+
+
+// View All Links
+.widget-title a,
+.view-all-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+  position: absolute;
+  right: 15px;
+  top: 18px;
+}

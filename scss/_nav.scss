@@ -1,0 +1,138 @@
+/* Navigation */
+
+// Main Nav
+nav {
+	background: #fff;
+	border-bottom: 2px solid $hr-green;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	position: relative;
+	z-index: 5;
+	#menuElem {
+		display: table;
+		height: 90px;
+		overflow: auto;
+		width: 100%;
+		@include breakpoint(large) {
+		}
+		li { 
+			display: table-cell;
+			float: none;
+			position: relative;
+			vertical-align: middle;
+			&:nth-last-child(1) ul {
+				right: 0;
+			}
+			&:hover {
+				background: $footer-green;
+				> a {
+					color: #fff;
+				}
+			}
+			a {
+				color: $black;
+				padding: 10px 12px;
+				@include breakpoint(large) {
+					padding: 10px 20px;
+				}
+			}
+			ul {
+				background: $footer-green;
+				top: 100%;
+				width: 225px;
+				li {
+					border: none;
+					display: inline-block;
+					width: 100%;
+					a {
+						color: #fff;
+						&:hover {
+							background: $mint;
+							color: $footer-green;
+						}
+					}
+				}
+			}
+		}
+		> li > a {
+			max-width: 130px;
+			text-align: center;
+		}
+	}
+}
+
+
+// Secondary Nav 
+.nav-wrapper {
+	margin: 10px 0 20px 10px;
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			margin:0 0 5px 0;
+			float: left;
+			position: relative;
+			> a:not(:only-child):after {
+				content: "\f0d7"; 
+				font-family: "FontAwesome"; 
+				font-size: 12px; 
+				margin-left: 5px;
+			}
+			a {
+				color: $green; 
+				background-color: #FFFFFF; 
+				text-align: left; 
+				font-family: Arial, sans-serif; 
+				font-size: 14px; 
+				text-transform: none; 
+				font-weight: normal; 
+				padding: 5px 10px; 
+				border: 1px solid $green;
+				display: inline-block;
+				margin-left: -1px;
+				&.Active {
+					background-color: $green; 
+					color: #fff;
+				}
+				&:hover {
+					color:#fff; 
+					background-color: $green;
+					text-decoration: none;
+				}
+			}
+			&.HighLighted a {
+				background-color: $green; 
+				color: #fff;
+				display: inline-block;
+				white-space: nowrap;
+			}
+			&:hover {
+				ul {
+					display: block;
+				}
+			}
+			ul {
+				display: none;
+				position: absolute;
+				top: 102%;
+				background: $green;
+				border-radius: 2px;
+				overflow: hidden;
+				padding: 5px 0;
+				z-index: 10;
+				li {
+					margin-bottom: 0;
+					a {
+						background: transparent;
+						border: 0;
+						color: #fff;
+						&:hover {
+							background: $footer-green;
+						}
+					}
+				}
+			}
+		}
+	}
+}

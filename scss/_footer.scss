@@ -1,0 +1,191 @@
+/* Footer */
+
+footer {
+	background: $footer-green;
+	box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.36);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding-top: 37px;
+	position: relative;
+	top: -37px;
+	@include breakpoint(medium) {
+		padding-top: 0;
+	}
+}
+
+footer {
+	#footer-top {
+		#footerContent {
+			#footerOffice {
+				color: $mint;
+				margin-bottom: 20px;
+				@include breakpoint(medium) {
+					margin-bottom: 0;
+				}
+				span {
+					color: #fff;
+					font-weight: bold;
+				}
+			}
+			.OfficeName {
+				font-size: 14px;
+				font-weight: bold;
+				color: #fff;
+			}
+			.OfficeAddress,
+			.OfficePhone,
+			.OfficeEmail {
+				line-height: 25px;
+				@include breakpoint(small) {
+					clear: none;
+				}
+			}
+			.OfficeAddress,
+			.OfficePhone {
+				margin-right: 15px;
+			}				
+			.OfficeAddress {
+				color: $mint;
+				font-size: 13px;
+			}
+			.OfficePhone {
+				color: $mint;
+				font-size: 13px;
+				font-weight: normal;
+			}
+			.OfficeEmail {
+				font-size: 13px;
+				font-weight: normal;
+				color: $mint;
+				&:hover {
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+			#signupForm {
+				.footer-header {
+					color: $black;
+					font-size: 16px;
+					margin-bottom: 10px;
+					font-weight: bold;
+					@include breakpoint(small) {
+						margin-bottom: 20px;
+					}
+				}
+				input#email {
+					@extend %input;
+					border-radius: 3px;
+					float: left;
+					margin-bottom: 10px;
+					width: 100%;
+					@include breakpoint(small) {
+						float: none;
+						margin-bottom: 5px;
+					}
+				}
+				input#emailBtn {
+					@include button(#fff,$green,#fff,3px);
+					border: none;
+					clear: left;
+					float: left;
+					font-weight: bold;
+					line-height: 16px;
+					padding: 8px 25px;
+					text-transform: none;
+					&:hover {
+						color: $green;
+					}
+					@include breakpoint(small) {
+						clear: none;
+						float: none;
+						width: 100%;
+						padding: 8px 0;
+					}
+					@include breakpoint(large) {
+						padding: 8px 20px;
+					}
+				}
+			}
+			#copyright {
+				color: $mint;
+				a {
+					color: #fff;
+					&:hover {
+						color: $mint;
+					}
+				}
+			}
+			#footer-toggle {
+				color: #fff;
+				cursor: pointer;
+				font-weight: bold;
+			}
+			span#footerButton {
+				clear: both;
+				display: block;
+				padding-top: 20px;
+				position: relative;
+				text-align: center;
+				cursor: pointer;
+				color: #000000;
+				font-size: 14px;
+				&:before {
+					content: "";
+					border-top: 1px solid #2B5494;
+					position: absolute;
+					left: 15px;
+					top: 29px;
+					width: 44%;
+				}
+				&:after {
+					content: "";
+					border-top: 1px solid #2B5494;
+					position: absolute;
+					right: 15px;
+					top: 29px;
+					width: 44%;
+				}
+			}
+		}
+	}
+}
+
+#footer-bottom {
+	display: none;
+	#siteMap {
+		> .CMSSiteMapList {
+			> .CMSSiteMapListItem {
+				width: 12%;
+				margin: 0 2% 0 0;
+				a {
+					color: $mint;
+					&:hover {
+						color: #fff; 
+						text-decoration: none;
+					}
+				}
+				.CMSSiteMapList {
+					.CMSSiteMapListItem {
+						padding: 10px 0 0 0;
+						a {
+							color: $dark-grey;
+							&:hover {
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+		}
+		#footerButtonClose {
+			background: $green; 
+			color: #fff; 
+			padding: 8px 14px; 
+			border-radius: 50%; 
+			float: right;
+			&:hover {
+				background: $footer-green;
+			}
+		}
+	}
+}

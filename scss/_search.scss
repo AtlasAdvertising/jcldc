@@ -1,0 +1,96 @@
+/* Search Page */
+
+.SearchDialog {
+	margin-top: 75px;
+	td { 
+		padding: 5px 5px; 
+		label {
+			font-size: 16px;
+			font-family: 'TideSans-500Dudette';
+			margin-right: 10px;
+		}
+		input {
+			outline: 0;
+		}
+		input#p_lt_wpzPagePlaceholder_pageplaceholder_pageplaceholder_lt_wpzSearchResults_SearchDialogWithResults_srchDialog_txtSearchFor {
+			@extend %input;
+		}
+		select#p_lt_wpzPagePlaceholder_pageplaceholder_pageplaceholder_lt_wpzSearchResults_SearchDialogWithResults_srchDialog_drpSearchMode { 
+			width: 100%;
+			cursor: pointer;
+			@extend %input;
+		}
+		input#p_lt_wpzPagePlaceholder_pageplaceholder_pageplaceholder_lt_wpzSearchResults_SearchDialogWithResults_srchDialog_btnSearch { 
+			width: 100%; 
+			margin: 0; 
+			position: relative; 
+			display: inline-block; 
+			outline: 0; 
+			border: 0;
+			@include button(#ffffff,$orange,$button-red,3px);
+		}
+	}
+}
+.SearchResults {
+	margin-top: 25px;
+}
+
+
+// Hidden Search Area
+
+.search-bar {
+	display: none;
+	background-color: $footer-green; 
+	height: 40px; 
+	padding: 9px 0; 
+	margin-top: -40px;
+	input#searchbtn { 
+		background: url('/Leduc/images/search.png') no-repeat center center; 
+		outline: 0; 
+		border: none; 
+		width: 22px; 
+		height: 22px; 
+		float: left; 
+		margin-right: 10px; 
+		display: inline-block; 
+	}
+	input#search { 
+		float: left; 
+		outline: none; 
+		border: 0; 
+		background-color: transparent; 
+		color: #fff;
+	}
+	input#search::-webkit-input-placeholder {
+	   color: #fff;
+	   font-family:'Avenir W01', sans-serif;
+	   font-size: 15px;
+	   text-transform: uppercase;
+	}
+
+	input#search:-moz-placeholder { /* Firefox 18- */
+	   color: #fff;
+	   font-family:'Avenir W01', sans-serif;
+	   font-size: 15px;
+	   text-transform: uppercase;  
+	}
+
+	input#search::-moz-placeholder {  /* Firefox 19+ */
+	   color: #fff;
+	   font-family:'Avenir W01', sans-serif;
+	   font-size: 15px;
+	   text-transform: uppercase;  
+	}
+
+	input#search:-ms-input-placeholder {  
+	   color: #fff;
+	   font-family:'Avenir W01', sans-serif;
+	   font-size: 15px;
+	   text-transform: uppercase;  
+	}
+	.search-close { 
+		float: right; 
+		height: 22px; 
+		cursor: pointer; 
+	}
+}

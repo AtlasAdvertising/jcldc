@@ -1,0 +1,164 @@
+/* secondary */
+#secondaryWrapper {
+	padding-top: 0 !important;
+	@include breakpoint(medium) {
+		top: -37px;
+		position: relative;
+	}
+	#secondaryHeaderImage {
+		position: relative;
+		img {
+			@media (max-width: 400px) {
+				min-height: 125px;
+				min-width: 480px;
+				left: -20%;
+				position: relative;
+			}
+		}
+		.SectionHeaderRepeater {
+			background: rgba(254,254,254,0.9);
+			bottom: -1px;
+			color: $black;
+			font-family: 'Oswald', sans-serif;
+			font-size: 20px;
+			padding: 10px;
+			position: absolute;
+			@include breakpoint(small) {
+				font-size: 40px;
+				padding: 25px;
+			}
+		}
+	}
+	
+	#secondaryContent {
+		margin-top: 25px;
+		@include breakpoint(small) {
+			margin-top: 0;
+		}
+		blockquote {
+			border-color: $hr-green;
+		}
+		#secondaryMainContent {
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			color: $text-grey;
+			line-height: 1.5;
+			h1 {
+				@extend %header;
+				font-size: 40px;
+				margin-top: 5px;
+			}
+			h2 {
+				@extend %header;
+				font-size: 32px;
+			}
+			h3 {
+				@extend %header;
+				font-size: 24px;
+			}
+			h4,
+			h5,
+			h6 {
+				color: $text-grey;
+				font-family: 'Roboto', sans-serif;
+				line-height: 1.5;
+			}
+			h4 {
+				font-size: 14px;
+			}
+			h5 {
+				font-size: 13px;
+			}
+			h6 {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+/* Page utility */
+#pageUtility {
+	.breadCrumbs {
+		a {
+			color: $grey;
+			&:hover {
+				color: $footer-green;
+			}
+		}
+		a.breadcrumbHome {
+			color: $green;
+			font-size: 18px;
+			margin-top: 13px;
+			&:hover {
+				color: $footer-green;
+			}
+		}
+	}
+	.PageUtility { 
+		z-index: 1;
+		.PageUtility_Wrapper { 
+			width: 320px; 
+			#Utility_MyFavorites, 
+			#Utility_AddPage, 
+			#Utility_Print { 
+				border: 0; 
+				color: #363636; 
+				font-size: 12px; 
+				font-family: Helvetica, Arial, sans-serif; 
+				font-weight: normal; 
+				padding: 0 10px 0 0;
+				&:hover {
+					color: $text-orange;
+					text-decoration: none;
+				} 
+			}
+			#Utility_MyFavorites:after, 
+			#Utility_AddPage:after, 
+			#Utility_Print:after { 
+				content: ': :'; 
+				padding-left: 7px; 
+			}
+			.addthis_button { 
+				font-weight: normal; 
+				&:hover {
+					color: $text-orange;
+					text-decoration: none;
+				}
+			}
+			#Utility_Share { 
+				padding: 0; 
+			}
+			.ImgBg { 
+				display: none; 
+			}
+		}
+		.PageUtility_Dropdown { 
+			-webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.64); 
+			-moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.64); 
+			box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.64); 
+		}
+	}
+}
+
+
+/* Style for pages with no secondary header image */
+#secondaryWrapper {
+	#secondaryHeaderImage.no-image { 
+		width: 100%;
+		background: $footer-green;
+		height: 75px;
+		margin: 0;
+		@include breakpoint(medium) {
+			margin-top: 37px;			
+		}
+		.SectionHeaderRepeater.no-image {
+			color: #ffffff;
+			background: none;
+			position: relative;
+			line-height: 55px;
+			@include breakpoint(small) {
+				line-height: 25px;
+			}
+		}
+	}
+}

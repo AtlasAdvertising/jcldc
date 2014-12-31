@@ -1,0 +1,53 @@
+/* News Page */
+#secondaryMainContent {
+	ul.news-list {
+		list-style: none;
+		padding: 0;
+		li.news-item {
+			margin-bottom: 25px;
+			.date {
+				@extend %date;
+			}
+			.title {
+				@extend %header;
+				font-size: 25px;
+				line-height: 25px;
+				margin-bottom: 5px;
+			}
+			.description {
+				font-family: Arial, sans-serif;
+				font-size: 13px;
+				color: #222222;
+			}
+		}
+	}
+}
+
+/* Press Release Page */
+ul.press-list {
+	padding: 0;
+	.pressReleaseItem {
+		margin-bottom: 25px;
+		.pressTitle {
+			@extend %header;
+			font-size: 25px;
+			line-height: 25px;
+			margin-bottom: 5px;
+		}
+		.date {
+			@extend %date;
+		}
+		.summary {
+			font-family: Arial, sans-serif;
+			font-size: 13px;
+			color: #222222;
+		}
+		a.pressLink {
+			color: $orange;
+			&:hover {
+				color: $button-red;
+				text-decoration: none;
+			}
+		}
+	}
+}

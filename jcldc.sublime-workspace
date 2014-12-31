@@ -1,0 +1,1326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-grey"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"footer",
+				"footerButton"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"sec",
+				"secondaryHeaderImage"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"fl",
+				"fl:r	float:right"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"blog",
+				"blog-posts-wrapper"
+			],
+			[
+				"med",
+				"medium"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"foot",
+				"footer-wrapper"
+			],
+			[
+				"list",
+				"list-item"
+			],
+			[
+				"ftp-",
+				"ftp-scss"
+			],
+			[
+				"ftp",
+				"ftp"
+			],
+			[
+				"ftp-dev",
+				"ftp-dev-scss"
+			],
+			[
+				"image",
+				"image-container-width"
+			],
+			[
+				"secondary",
+				"secondary-content"
+			],
+			[
+				"dark",
+				"dark-grey"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"butt",
+				"button-red"
+			],
+			[
+				"tex",
+				"text-grey"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"siteMap",
+				"siteMapWrapper"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"button",
+				"button-hover"
+			],
+			[
+				"dar",
+				"darker-purple"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"Link",
+				"LinkedIn"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"MAdison",
+				"Madison"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"L",
+				"LinkedIn"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"b",
+				"block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 411,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 170,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_master.scss",
+			"settings":
+			{
+				"buffer_size": 3411,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_nav.scss",
+			"settings":
+			{
+				"buffer_size": 2324,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 3299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_home.scss",
+			"settings":
+			{
+				"buffer_size": 8089,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_secondary.scss",
+			"settings":
+			{
+				"buffer_size": 2890,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_widgets.scss",
+			"settings":
+			{
+				"buffer_size": 2520,
+				"line_ending": "Windows",
+				"name": "/* Widgets */"
+			}
+		},
+		{
+			"file": "scss/_media.scss",
+			"settings":
+			{
+				"buffer_size": 1415,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_success.scss",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_news.scss",
+			"settings":
+			{
+				"buffer_size": 820,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_search.scss",
+			"settings":
+			{
+				"buffer_size": 2119,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_contact.scss",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/_cmsdesk.scss",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Windows",
+				"name": "/* CMS Desk Editor */"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1774,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 371.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/temp/contactform.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/Muncie/jquery.flickrGallery.js",
+		"/C/Gulp-Projects/Leduc/gulpfile.js",
+		"/C/Gulp-Projects/Clovis/.git/config",
+		"/C/Atlas/Local Code/Random Examples/breakpoint-mixins.scss",
+		"/C/Atlas/Local Code/Kentico Site Projects/scss/master-nav.scss",
+		"/C/Gulp-Projects/GOPEP/scss/main.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_mixins.scss",
+		"/C/Atlas/Local Code/Kentico Site Projects/master-leduc.html",
+		"/C/Gulp-Projects/GOPEP/gulpfile.js",
+		"/C/Gulp-Projects/GOPEP/css/main.min.css",
+		"/C/Users/Chris Deaton/Desktop/Default (Windows).sublime-keymap",
+		"/C/Users/Chris Deaton/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Gulp-Projects/Parker/scss/_master.scss",
+		"/C/Gulp-Projects/Parker/scss/_home.scss",
+		"/C/Gulp-Projects/Parker/scss/_secondary.scss",
+		"/C/Gulp-Projects/Parker/scss/_contact.scss",
+		"/C/Gulp-Projects/Parker/scss/_media.scss",
+		"/C/Gulp-Projects/Parker/scss/main.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_master.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_search.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_home.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_secondary.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_contact.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_media.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_news.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_success.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_colors.scss",
+		"/C/Gulp-Projects/GOPEP/scss/_fonts.scss",
+		"/C/Gulp-Projects/Parker/gulpfile.js",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen-atlas/header.php",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen-atlas/index.php",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen-atlas/style.css",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen/style.css",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen/header.php",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen/index.php",
+		"/C/wamp/www/clex/wp-content/themes/twentyfourteen/atlas.css",
+		"/C/Atlas/Projects/CLEX Blog/atlas.css",
+		"/C/Gulp-Projects/GOPEP/scss/success.scss",
+		"/C/wamp/www/wordpress/wp-config.php",
+		"/C/wamp/www/wordpress/wp-content/themes/twentyten/home-page.php",
+		"/C/wamp/www/wordpress/wp-content/themes/twentyten/wine-club.php",
+		"/C/wamp/www/wordpress/wp-content/themes/twentyten/services.php",
+		"/C/wamp/www/wordpress/wp-includes/functions.php",
+		"/C/Users/Chris Deaton/Downloads/index.html",
+		"/C/Users/Chris Deaton/Downloads/emp.css",
+		"/C/Users/Chris Deaton/Downloads/contact.html",
+		"/C/Users/Chris Deaton/Downloads/about.html",
+		"/C/Users/Chris Deaton/Downloads/portfolio.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/wp-config.php",
+		"/C/Atlas/Projects/sass-project/scss/style.scss",
+		"/C/Users/Chris Deaton/Desktop/Temp/slick/slick.js",
+		"/C/Gulp-Projects/Parker/css/main.css",
+		"/C/Users/Chris Deaton/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Gulp-Projects/gulpfile.js",
+		"/C/Gulp-Projects/Cent/gulpfile.js",
+		"/C/Users/Chris Deaton/Downloads/gulpfile.js",
+		"/C/Gulp-Projects/Parker/scss/_partial.scss",
+		"/C/Gulp-Projects/node_modules/gulp-sass/index.js",
+		"/C/Gulp-Projects/Parker/scss/style.scss",
+		"/C/Users/Chris Deaton/Desktop/Temp/dev-lubbock.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/prod-lubbock.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/responsiveslides.js",
+		"/C/Users/Chris Deaton/Desktop/Temp/jquery.cycle.all.js",
+		"/C/Users/Chris Deaton/Desktop/Temp/gulpfile.js",
+		"/C/Gulp-Projects/Cent/files/about.php",
+		"/C/Gulp-Projects/Cent/files/services.php",
+		"/C/Gulp-Projects/Cent/files/home-page.php",
+		"/C/Gulp-Projects/Cent/files/store.php",
+		"/C/Gulp-Projects/Cent/files/footer.php",
+		"/C/Gulp-Projects/Cent/files/style.css",
+		"/C/Gulp-Projects/Cent/files/wine-club.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/Cent/style.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/Cent/wine-club.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/Cent/store.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/Cent/services.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/Cent/about.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/SalesforceForm.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/SalesforceForm-old.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/cent.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/services.php",
+		"/C/Atlas/Local Code/omaha-search-madness.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/main-site-styles.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/store.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/wine-club.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/about.php",
+		"/C/Users/Chris Deaton/Desktop/Temp/header.php",
+		"/C/Atlas/Projects/sass-project/sandbox.html",
+		"/C/Atlas/Projects/sass-project/gulpfile.js",
+		"/C/Atlas/Projects/Henry County/master-template-backup.html",
+		"/C/Atlas/Projects/Central Florida/style-scratchpad.css",
+		"/C/Atlas/Test-Git-Project/example.html",
+		"/C/Atlas/Projects/sass-project/css/button.css",
+		"/C/Atlas/Test-Git-Project/scss/button.scss",
+		"/C/Atlas/Test-Git-Project/gulpfile.js",
+		"/C/Users/Chris Deaton/Downloads/oxygen font kit/stylesheet.css",
+		"/C/Atlas/Projects/Central Florida/temp-home-backup.html",
+		"/C/Atlas/Projects/Omaha/temp-home-backup.html",
+		"/C/Users/Chris Deaton/Downloads/Rama Gothic/MyFontsWebfontsKit/MyFontsWebfontsKit.css",
+		"/C/Atlas/Projects/Email Templates/MailChimp/gallia-1.html",
+		"/C/Atlas/Projects/Email Templates/MailChimp/gallia-2.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/prod-okm.css",
+		"/C/Atlas/Projects/Lubbock Content Takedown/home.txt",
+		"/C/Users/Chris Deaton/Desktop/Temp/dre-fitbit-leftronic-july.html",
+		"/C/Atlas/Projects/Local InSite/_JSON/dev_EFI_071514_CD_lakewales.json",
+		"/C/Atlas/Projects/Local InSite/_JSON/dev_OHIO_071514_CD_findlay_richland.json",
+		"/C/Users/Chris Deaton/Desktop/Temp/dev-okm.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/dev-okm.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/prod-okm.html",
+		"/C/Atlas/Local Code/Lubbock/v0.3/FlashMap.html",
+		"/C/Atlas/Local Code/Community Systems Email Header, etc/style.css",
+		"/C/Atlas/Projects/Lubbock Content Takedown/NEWS CENTER.txt",
+		"/C/Atlas/Projects/Lubbock Content Takedown/DATA & MAP CENTER.txt",
+		"/C/Atlas/Projects/Lubbock Content Takedown/REAL ESTATE.txt",
+		"/C/Atlas/Projects/Lubbock Content Takedown/Industry Strengths.txt",
+		"/C/Atlas/Projects/Lubbock Content Takedown/Why Lubbock.txt",
+		"/C/Atlas/Projects/Lubbock Content Takedown/About LEDA.txt",
+		"/C/Users/Chris Deaton/Desktop/Temp/dev-roanoke.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/prod-roanoke.css",
+		"/C/Users/Chris Deaton/Downloads/malihu-custom-scrollbar-plugin-3.0.2/jquery.mCustomScrollbar.css",
+		"/C/Users/Chris Deaton/Desktop/Temp/dev-amp.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/prod-amp.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/centennial",
+		"/C/Users/Chris Deaton/Desktop/Temp/index.html",
+		"/C/Users/Chris Deaton/Desktop/Temp/blog",
+		"/C/Users/Chris Deaton/Desktop/Temp/default",
+		"/C/Users/Chris Deaton/Desktop/Temp/empisi",
+		"/C/Users/Chris Deaton/Desktop/Temp/1.htaccess"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$white",
+			"button-red",
+			"text-orange",
+			"$.fancybox",
+			"#000",
+			"font-family: 'TideSans-500Dudette';",
+			"purple-blue",
+			"254",
+			"height: 230px;",
+			"top",
+			"Brenham",
+			".email:before",
+			".email:after",
+			".email:before",
+			"email:before",
+			"email:after",
+			"email:before",
+			"black",
+			"event",
+			"#231F20",
+			"#444444",
+			"font-family: \"Roboto\", sans-serif;",
+			"medium",
+			"signup",
+			"GOPEP",
+			"header",
+			"media",
+			".nav-par",
+			"nav-par",
+			"initializeTweets",
+			"#767676",
+			"#41a62a",
+			"Link loerum ipsum dolreset amet",
+			".MobileMenuButton",
+			"webfonts",
+			"medium",
+			"arrow",
+			"#005396",
+			"red",
+			"yellow",
+			"red",
+			"001b3e",
+			"sass-to-css",
+			"col-xs-5",
+			"col-xs-7",
+			"scroll",
+			"\"",
+			"images",
+			".utilityNavWrapper #search",
+			"searchbtn",
+			"div",
+			"ool",
+			"nav",
+			"red",
+			".connect-wrapper",
+			".widget-block",
+			".ConnectWithUs",
+			".widget-block ",
+			"lg",
+			"#SecondaryContent",
+			"		table.textAndImage tr td:first-child{\n			width:66%;\n		}\n		table.textAndImage tr td:first-child+td{\n			text-align:right;\n		}",
+			"href",
+			"GADS",
+			"Gads",
+			"GADS",
+			"Richland",
+			"MCF",
+			"mod",
+			"mod_rewrite",
+			".active",
+			"active",
+			"population",
+			"=\"/media/",
+			"/media/",
+			"src=",
+			"/media/images",
+			"src",
+			"Button",
+			"TROY",
+			"LIBERTY",
+			", MS",
+			"&bull; ",
+			"<br />",
+			"LINK",
+			"ARLINGTON",
+			"935",
+			"835",
+			"href=\"/",
+			"royalslider",
+			".widget-block",
+			"<br />",
+			"</td>",
+			"<td>",
+			":hover",
+			"mouse",
+			"mouseDrag",
+			"GALLIA",
+			"label",
+			"nmida",
+			"naida",
+			"label",
+			"B. R. Kreider & Son",
+			"columbus",
+			"&quot;",
+			"&quot;&quot;",
+			"\"Z\"",
+			"LEON",
+			"display:none",
+			"hidden",
+			"table style=\"width:100%\"",
+			"table",
+			"style=\"display: block; margin: 0; border: 0; padding: 0;\"",
+			"style=\"display: block;\"",
+			"vspace=\"5\" hspace=\"5\"",
+			"height=\"44\" ",
+			" height: 25px;",
+			"nav",
+			"color: rgb(1,34,68);",
+			" style=\"color: #0000cd\"",
+			"<br />",
+			"FGNW",
+			"Fees: Business and Residential",
+			"<div style=\"text-align: justify;\">",
+			"<span style=\"font-family:verdana,geneva,sans-serif;\">",
+			"</span>",
+			"<span style=\"font-size:14px;\">",
+			"<span style=\"font-family:tahoma,geneva,sans-serif;\">",
+			"<p style=\"text-align: justify;\">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family: 'Oswald', sans-serif;",
+			"/GOPEP/webfonts",
+			"'",
+			"/images",
+			"#utility-search",
+			".secondary-wrapper .widget-wrapper",
+			".widget-block .ConnectWithUs",
+			"",
+			"=\"/Lubbock/media/",
+			"MCF",
+			"TROY",
+			" - MS",
+			"<li>",
+			"</li>",
+			"",
+			"MAD",
+			"LINK",
+			"href=\"/Resource-Center/Ohio/",
+			"#ProjectRoomWrapper #ProjectRoomSidebar",
+			"",
+			":focus",
+			"PORTAGE",
+			"",
+			"MADISON",
+			"table class=\"data\" style=\"width:100%\"",
+			"",
+			"style=\"display: block; margin: 0; border: 0; padding: 0;\"",
+			"vspace=\"0\" hspace=\"0\"",
+			"",
+			"</li>",
+			"LEON",
+			"",
+			"<p>",
+			"",
+			"p",
+			"",
+			"</li>",
+			"<li>",
+			"<a class=\"blueLink\"",
+			"li",
+			"p",
+			"li",
+			"margin-right:15px",
+			"GALLIA",
+			"",
+			"ga",
+			"center",
+			"2px",
+			"1px !important",
+			"background-position: 0 0",
+			"background-position",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/main.scss",
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/_colors.scss",
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_fonts.scss",
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1000,
+								964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "scss/_master.scss",
+					"settings":
+					{
+						"buffer_size": 3411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2569,
+								2569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1651.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/_nav.scss",
+					"settings":
+					{
+						"buffer_size": 2324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2239,
+								2239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scss/_footer.scss",
+					"settings":
+					{
+						"buffer_size": 3299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2041,
+								2041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "scss/_home.scss",
+					"settings":
+					{
+						"buffer_size": 8089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5507,
+								5507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3684.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "scss/_secondary.scss",
+					"settings":
+					{
+						"buffer_size": 2890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2696,
+								2696
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1722.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "scss/_widgets.scss",
+					"settings":
+					{
+						"buffer_size": 2520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* Widgets */",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "scss/_media.scss",
+					"settings":
+					{
+						"buffer_size": 1415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1038,
+								1038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "scss/_success.scss",
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "scss/_news.scss",
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "scss/_search.scss",
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1244,
+								1244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "scss/_contact.scss",
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "scss/_cmsdesk.scss",
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* CMS Desk Editor */",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 16,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1720,
+								1720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.0513874614594,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.948078920042,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Gulp-Projects/Clovis/clovis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
