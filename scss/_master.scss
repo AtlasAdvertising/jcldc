@@ -7,7 +7,7 @@ form {
 a {
 	color: $green;
 	&:hover {
-		color: $hr-green;
+		color: $black;
 		text-decoration: none;
 	}
 }
@@ -18,7 +18,7 @@ body {
 			display: none;
 		}
 		.MobileMenuButton {
-			top: 32px; 
+			top: 12px; 
 			right: 5px;
 			background: none; 
 			font-size: 36px; 
@@ -32,7 +32,7 @@ body {
 				font-size: 28px;
 			}
 			@include breakpoint(small) {
-				top: 25px; 
+				top: 55px; 
 				right: 50px;
 			}
 			@include breakpoint(medium) {
@@ -78,6 +78,8 @@ body {
 		#header-social {
 			float: left;
 			font-size: 19px;
+			margin: 0;
+			padding: 0;
 			li a {
 				display: block;
 				margin: 0 10px 0 0;
@@ -88,7 +90,6 @@ body {
 			right: -175px;
 			position: absolute;
 			width: 333px;
-			
 			.SmartSearchTextbox {
 				width: 60%;
 				margin-right: 15%;
@@ -190,6 +191,12 @@ body {
 	}
 	img {
 		float: left;
+		height: 65%;
+		padding-top: 6px;
+		@include breakpoint(medium) {
+			height: auto;
+			padding-top: 0;
+		}
 	}
 	a {
 		display: table-cell;

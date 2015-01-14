@@ -2,9 +2,9 @@
 .successStories {
 	.successStoryContent {
 		a.Link {
-			color: $orange;
+			color: $green;
 			&:hover {
-				color: $button-red;
+				color: $footer-green;
 				text-decoration: none;
 			}
 		}

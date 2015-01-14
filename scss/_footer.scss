@@ -7,7 +7,6 @@ footer {
 	font-size: 13px;
 	padding-top: 37px;
 	position: relative;
-	top: -37px;
 	@include breakpoint(medium) {
 		padding-top: 0;
 	}
@@ -18,7 +17,6 @@ footer {
 		#footerContent {
 			#footerOffice {
 				color: $mint;
-				margin-bottom: 20px;
 				@include breakpoint(medium) {
 					margin-bottom: 0;
 				}
@@ -62,6 +60,12 @@ footer {
 					text-decoration: none;
 				}
 			}
+			#email-signup {
+				margin: 0 0 20px;
+				@include breakpoint(medium) {
+					margin: 0;
+				}
+			}
 			#signupForm {
 				.footer-header {
 					color: $black;
@@ -81,25 +85,34 @@ footer {
 					@include breakpoint(small) {
 						float: none;
 						margin-bottom: 5px;
+						width: 37%;
+					}
+					@include breakpoint(medium) {
+						width: 100%;
 					}
 				}
 				input#emailBtn {
 					@include button(#fff,$green,#fff,3px);
 					border: none;
 					clear: left;
+					display: block;
 					float: left;
 					font-weight: bold;
 					line-height: 16px;
 					padding: 8px 25px;
 					text-transform: none;
+					width: 100%;
 					&:hover {
 						color: $green;
 					}
 					@include breakpoint(small) {
 						clear: none;
 						float: none;
-						width: 100%;
+						width: 37%;
 						padding: 8px 0;
+					}
+					@include breakpoint(medium) {
+						width: 100%;
 					}
 					@include breakpoint(large) {
 						padding: 8px 20px;
@@ -158,9 +171,9 @@ footer {
 				width: 12%;
 				margin: 0 2% 0 0;
 				a {
-					color: $mint;
+					color: #fff;
 					&:hover {
-						color: #fff; 
+						color: $mint; 
 						text-decoration: none;
 					}
 				}
@@ -168,7 +181,7 @@ footer {
 					.CMSSiteMapListItem {
 						padding: 10px 0 0 0;
 						a {
-							color: $dark-grey;
+							color: $mint;
 							&:hover {
 								color: #fff;
 							}

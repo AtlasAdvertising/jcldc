@@ -87,3 +87,15 @@ ul.events-list {
 		}
 	}
 }
+
+
+// Show More/Less Buttons 
+.show-more.button,
+.show-less.button {
+	@include button(#fff,$green,$footer-green,3px);
+	cursor: pointer;
+	display: inline-block;
+	&:hover {
+		color: #fff;
+	}
+}

@@ -8,53 +8,7 @@
 	@include breakpoint(large) {
 		background-position: 100% 423px;
 	}
-	.HeroImageSlider {
-		max-width: 1170px;
-		margin: 0 auto;
-		img {
-			max-width: none;
-		}
-		.rsAbsoluteEl.Caption {
-			background: rgba(0,0,0,0.85);
-			border: 5px solid rgba(47,47,47,0.85);
-			bottom: 25%;
-			left: 20px;
-			width: 100%;
-			@include breakpoint(medium) {
-				max-width: 475px;
-				padding: 25px;
-				width: 45%;
-			}
-			.captionTitle {
-				color: #fff;
-				font-family: 'Oswald', sans-serif;
-				font-size: 30px;
-				font-weight: bold;
-				line-height: 34px;
-				margin: 0 0 15px;
-				@include breakpoint(medium) {
-					font-size: 45px;
-					line-height: 54px;
-				}
-			}
-			.captionDescription {
-				color: $off-white;
-				font-family: 'Roboto', sans-serif;
-				font-size: 12px;
-			}
-			.captionLink {
-				bottom: -7px;
-				position: absolute;
-				right: 10px;
-				a {
-					@include button(#fff,$green,$footer-green,0);
-					font-size: 14px;
-					font-weight: 700;
-					text-transform: uppercase;
-				}
-			}
-		}
-	}
+
 	.columnOuterWrapper:nth-of-type(2) {
 		margin-bottom: 40px;
 		.editable-text {
@@ -63,9 +17,12 @@
 			color: $text-grey;
 			font-size: 16px;
 			h2 {
+				color: $black;
 				font-family: 'Oswald', sans-serif;
 				font-size: 34px;
-				color: $black;
+				@include breakpoint(medium) {
+					font-size: 44px;
+				}
 			}
 		}
 		.map-button {
@@ -108,16 +65,16 @@
 		.col-md-4 {
 			padding-right: 0;
 		}
-		.home-map:hover {
-			opacity: 0.8;
+		#p_lt_wpzPagePlaceholder_pageplaceholder_p_lt_wpzHero_ColumnsSmartCity_ColumnsSmartCity_l1_Link_SmartCity2_btnElem_hyperLink {
+			display: block;
+			&:hover {
+				opacity: 0.8;
+			}
 		}
 		.welcome-button {
-			display: none;
-			@include breakpoint(small) {
-				display: inline-block;
-				margin-top: 15px;
-				@include button(#fff,$green,$footer-green,3px);
-			}
+			@include button(#fff,$green,$footer-green,3px);
+			display: inline-block;
+			margin-top: 15px;
 		}
 		.widget-block {
 			.widget-title {
@@ -198,16 +155,18 @@
 			@extend %home-page-header;
 			a {
 				bottom: -50px;
+				display: none;
 				left: 15px;
 				position: absolute;
 				text-transform: lowercase;
-				@include breakpoint(small) {
-					position: static;
+				@include breakpoint(medium) {
 					background: none;
+					display: inline-block;
+					float: right;
 					font-family: Arial, sans-serif;
 					font-size: 11px;
-					float: right;
 					padding: 22px 0 0;
+					position: static;
 					&:hover {
 						background: none;
 						color: $black;
@@ -244,10 +203,11 @@
 			}
 		}
 		a.view-all {
-			position: absolute;
+			@include button(#fff,$green,$footer-green,3px);
 			bottom: -50px;
+			display: inline-block;
 			left: 15px;
-			@include yellow-button;
+			position: absolute;
 			@include breakpoint(small) {
 				background: none;
 				color: $green;
@@ -279,7 +239,7 @@
 			padding: 0;
 			overflow: hidden;
 			@include breakpoint(small) {
-				height: 330px;
+				height: 290px;
 			}
 			.featured-property {
 				margin: 0 0 25px;
@@ -299,11 +259,11 @@
 			font-family: 'Roboto', sans-serif;
 			font-size: 13px;
 			list-style: none;
-			margin: 20px 0 0;
+			margin: 20px 0 85px;
 			padding: 0;
 			overflow: hidden;
 			@include breakpoint(small) {
-				height: 330px;
+				height: 290px;
 			}
 			li.news-item {
 				margin-bottom: 20px;
@@ -338,14 +298,15 @@
 			}
 		}
 		.SuccessStories_RegionalHighlights {
-			height: 330px;
+			height: 295px;
 			.successStoryContent {
 				font-family: 'Roboto', sans-serif;
 				.Title {
-					font-weight: bold;
-					font-size: 16px;
 					color: $green;
 					float: left;
+					font-size: 16px;
+					font-weight: bold;
+					padding-top: 12px;
 				}
 				.Description {
 					color: $text-grey;
@@ -379,6 +340,7 @@
 		}
 	}
 	.partner-carousel {
+		margin: 15px 0 30px;
 		padding: 0 25px;
 		.prev-button,
 		.next-button {
@@ -393,10 +355,22 @@
 	}
 }
 
+#connect-wrapper {
+	background: #f5f5f5;
+	padding-top: 15px;
+	@include breakpoint(large) {
+		padding-top: 20px;
+	}
+}
+
 .connect-text {
 	@extend %home-page-header;
 	border: 0;
+	font-size: 22px;
 	padding-left: 30px;
+	@include breakpoint(large) {
+		font-size: 26px;
+	}
 	&:before {
 		color: $green;
 		content: '\f0da';
@@ -406,20 +380,29 @@
 }
 
 .connect-social-icons {
+	float: left;
+	font-size: 19px;
+	text-align: center;
+	@include breakpoint(small) {
+		text-align: right;
+	}
 	ul {
+		display: inline-block;
 		list-style: none;
+		padding: 0;
 		li {
 			float: left;
 		}
 	}
-	float: left;
-	font-size: 19px;
 	li a {
 		color: $icon-grey;
-		display: block;
+		display: inline-block;
 		font-size: 30px;
 		margin: 0 10px 0 0;
-		padding-top: 10px;
+		padding-top: 2px;
+		@include breakpoint(large) {
+			padding-top: 7px;
+		}
 		&:hover {
 			color: $dark-grey;
 		}

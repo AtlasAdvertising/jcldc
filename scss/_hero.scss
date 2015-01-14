@@ -1,0 +1,91 @@
+/* hero slider */
+
+.homeWrapper {
+	.HeroImageSlider {
+		max-width: 1170px;
+		margin: 0 auto;
+		img {
+			max-width: none;
+		}
+		.rsAbsoluteEl.Caption {
+			background: rgba(0,0,0,0.85);
+			border: 5px solid rgba(47,47,47,0.85);
+			bottom: 25%;
+			left: 20px;
+			padding: 15px 25px 35px;
+			width: 94%;
+			@include breakpoint(medium) {
+				max-width: 475px;
+				padding: 25px;
+				width: 45%;
+			}
+			.captionTitle {
+				color: #fff;
+				font-family: 'Oswald', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				line-height: 34px;
+				margin: 0 0 15px;
+				@include breakpoint(medium) {
+					font-size: 45px;
+					line-height: 54px;
+				}
+			}
+			.captionDescription {
+				color: $off-white;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+			}
+			.captionLink {
+				bottom: -13px;
+				position: absolute;
+				right: 10px;
+				a {
+					@include button(#fff,$green,$footer-green,0);
+					font-size: 14px;
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+
+// Hero Pagination
+// ----------------------------------------
+
+.HeroImageSlider {
+	.rsNav.rsTabs {
+		bottom: 0;
+    counter-reset: hero-counter;
+    position: absolute;
+    right: 0;
+    width: auto;
+	}
+	.rsNavItem {
+    counter-increment: hero-counter;
+	}
+	.rsNavItem.rsTab {
+		background: rgba(0,0,0,0.75);
+    background-image: none !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #fff;
+    font-family: 'Patua One', serif;
+    font-size: 24px;
+    height: 50px;
+    margin-left: 4px;
+    min-width: 0;
+    padding-top: 9px;
+    text-shadow: none;
+    width: 50px;
+	}
+	.rsNavItem.rsTab.rsNavSelected {
+		background: rgba(6,119,71,0.75);
+	}
+	.rsNavItem:before {
+    content: counter(hero-counter);
+	}
+}
