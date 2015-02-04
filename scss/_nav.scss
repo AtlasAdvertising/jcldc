@@ -102,10 +102,12 @@ nav {
 				}
 			}
 			&.HighLighted a {
-				background-color: $green; 
-				color: #fff;
 				display: inline-block;
 				white-space: nowrap;
+			}
+			&.HighLighted > a {
+				background-color: $green; 
+				color: #fff;
 			}
 			&:hover {
 				ul {
@@ -116,7 +118,7 @@ nav {
 				display: none;
 				position: absolute;
 				top: 102%;
-				background: $green;
+				background: $footer-green;
 				border-radius: 2px;
 				overflow: hidden;
 				padding: 5px 0;
@@ -128,7 +130,8 @@ nav {
 						border: 0;
 						color: #fff;
 						&:hover {
-							background: $footer-green;
+							background: $mint;
+							color: $footer-green;
 						}
 					}
 				}
