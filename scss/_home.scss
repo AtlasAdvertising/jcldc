@@ -1,424 +1,440 @@
 /* home */
-.homeWrapper {
-	padding: 0 !important;
-	@include breakpoint(medium) {
-		top: -37px;
-		position: relative;
-	}
-	@include breakpoint(large) {
-		background-position: 100% 423px;
-	}
 
-	.columnOuterWrapper:nth-of-type(2) {
-		margin-bottom: 40px;
-		.editable-text {
-			font-family: 'Roboto', sans-serif;
-			font-weight: 300;
-			color: $text-grey;
-			font-size: 16px;
-			h2 {
-				color: $black;
-				font-family: 'Oswald', sans-serif;
-				font-size: 34px;
-				@include breakpoint(medium) {
-					font-size: 44px;
-				}
-			}
-		}
-		.map-button {
-			margin: 15px 0 10px;
-			display: inline-block;
-			@include yellow-button;
-			@include breakpoint(small) {
-				margin: 0;
-				position: absolute;
-				top: 57px;
-				left: 7%;
-				opacity: 0;
-				transition: opacity linear 0.25s;
-				@include button(#ffffff,$orange,$button-red,3px);
-			}
-			@include breakpoint(medium) {
-				left: 5%;
-			}
-			@include breakpoint(large) {
-				left: 15%;
-			}
-		}
-		.col-md-3:first-child {
-			text-align: center;
-			@include breakpoint(small) {
-				text-align: left;
-				img {
-					transition: opacity linear 0.25s;
-				}
-				&:hover {
-					img {
-						opacity: 0.5;
-					}
-					.map-button {
-						opacity: 1.0;
-					}
-				}
-			}
-		}
-		.col-md-4 {
-			padding-right: 0;
-		}
-		#p_lt_wpzPagePlaceholder_pageplaceholder_p_lt_wpzHero_ColumnsSmartCity_ColumnsSmartCity_l1_Link_SmartCity2_btnElem_hyperLink {
-			display: block;
-			&:hover {
-				opacity: 0.8;
-			}
-		}
-		.welcome-button {
-			@include button(#fff,$green,$footer-green,3px);
-			display: inline-block;
-			margin-top: 15px;
-		}
-		.widget-block {
-			.widget-title {
-				font-family: 'TideSans-500Dudette';
-				font-size: 20px;
-				font-weight: bold;
-				color: $black;
-				line-height: 24px;
-				border-top: 4px solid $black;
-				margin-top: 20px;
-				padding-top: 10px;
-				@include breakpoint(small) {
-					border-top: 4px solid $orange;
-					font-family: 'TideSans-300LilKahuna';
-					font-size: 16px;
-					color: $dark-grey;
-					margin-bottom: 10px;
-				}
-				a {
-					display: block;
-					color: $text-orange;
-					font-size: 15px;
-					font-family:'Avenir LT W01 95 Black';
-					font-weight: normal;
-					@include breakpoint(small) {
-						display: inline;
-						float: right;
-						font-family: Arial, sans-serif;
-						font-size: 14px;
-						&:hover {
-							color: $button-red;
-							text-decoration: none;
-						}
-					}
-				}
-			}
-			.ConnectWithUs {
-				.Staff {
-					font-family: Arial, sans-serif;
-					.Controls {
-						.button {
-							background: $text-orange;
-						}
-					}
-					.FirstName,
-					.LastName {
-						font-size: 18px;
-						font-weight: bold;
-						color: $text-grey;
-						display: inline;
-					}
-					.LastName {
-						
-					}
-					.Title {
-						font-size: 11px;
-						color: #737373;
-					}
-				}
-			}
-		}
-	}
-	.columnOuterWrapper:nth-of-type(3) {
-		margin-bottom: 25px;
-		@include breakpoint(medium) {
-			margin: auto;
-		}
-		.col-md-4 {
-			margin-bottom: 25px;
-			@include breakpoint(medium) {
-				margin-bottom: 25px;
-			}
-		}
-		.mCSB_scrollTools .mCSB_draggerRail {
-			background: #E4E4E4;
-		}
-		.widget-title {
-			@extend %home-page-header;
-			a {
-				bottom: -50px;
-				display: none;
-				left: 15px;
-				position: absolute;
-				text-transform: lowercase;
-				@include breakpoint(medium) {
-					background: none;
-					display: inline-block;
-					float: right;
-					font-family: Arial, sans-serif;
-					font-size: 11px;
-					padding: 22px 0 0;
-					position: static;
-					&:hover {
-						background: none;
-						color: $black;
-					}
-				}
-			}
-		}
-		.editable-text {
-			font-family: Arial, sans-serif;
-			font-size: 13px;
-			line-height: 1.5;
-			color: #ffffff;
-			h3 {
-				font-family: Arial, sans-serif;
-				font-weight: bold;
-				font-size: 14px;
-			}
-			ul {
-				padding: 5px 16px;
-				li {
-					padding: 0 0 5px;
-					@include breakpoint(medium) {
-						padding: 0;
-					}
-				}
-				a {
-					color: #ff941f;
-					font-weight: bold;
-					&:hover {
-						color: #EF4036;
-						text-decoration: none;
-					}
-				}
-			}
-		}
-		a.view-all {
-			@include button(#fff,$green,$footer-green,3px);
-			bottom: -50px;
-			display: inline-block;
-			left: 15px;
-			position: absolute;
-			@include breakpoint(small) {
-				background: none;
-				color: $green;
-				font-family: Arial, sans-serif;
-				font-size: 11px;
-				left: 86%;
-				padding: 0;
-				position: absolute;
-				text-transform: none;
-				top: 20px;
-				&:hover {
-					background: none;
-					color: $black;
-				}
-			}
-		}
-		.news-repeater {
-			margin-bottom: 80px;
-			@include breakpoint(small) {
-				margin: 0;
-			}
-		}
-		.properties-list {
-			color: $text-grey;
-			font-family: 'Roboto', sans-serif;
-			font-size: 13px;
-			list-style: none;
-			margin: 20px 0 0;
-			padding: 0;
-			overflow: hidden;
-			@include breakpoint(small) {
-				height: 290px;
-			}
-			.featured-property {
-				margin: 0 0 25px;
-			}
-			.title {
-				font-size: 14px;
-				font-weight: 700;
-			}
-			.featured-property-image {
-				clear: both;
-				float: left;
-				margin-right: 15px;
-			}
-		}
-		ul.news-list {
-			color: $text-grey;
-			font-family: 'Roboto', sans-serif;
-			font-size: 13px;
-			list-style: none;
-			margin: 20px 0 85px;
-			padding: 0;
-			overflow: hidden;
-			@include breakpoint(small) {
-				height: 290px;
-			}
-			li.news-item {
-				margin-bottom: 20px;
-				&:not(:first-child) {
-					display: none;
-					@include breakpoint(small) {
-						display: block;
-					}
-				}
-			}
-			.date {
-				font-size: 12px;
-				font-weight: 700;
-			}
-			.title {
-				color: $green;
-				font-size: 20px;
-				font-weight: 700;
-				line-height: 22px;
-				margin: 5px 0 10px;
-				a {
-					color: $green;
-				}
-			}
-			.description {
-				line-height: 1.25;
-				margin: 0 0 10px;
-			}
-			a.link {
-				color: $green;
-				&:hover {
-					color: $footer-green;
-					text-decoration: none;
-				}
-			}
-		}
-		.SuccessStories_RegionalHighlights {
-			height: 295px;
-			.successStoryContent {
-				font-family: 'Roboto', sans-serif;
-				.Title {
-					color: $green;
-					float: left;
-					font-size: 16px;
-					font-weight: bold;
-					padding-top: 12px;
-				}
-				.Description {
-					color: $text-grey;
-					font-size: 13px;
-					float: left;
-					a {
-						color: $green;
-						&:hover {
-							color: $black;
-							text-decoration: none;
-						}
-					}
-				}
-			}
-		}
-	}
-	.columnOuterWrapper:nth-of-type(4) {
-		@include breakpoint(medium) {
-			margin: auto;
-		}
-		.editable-text {
-			@extend %home-page-header;
-		}
-		img {
-			margin: 0 auto;
-		}
-		.col-md-4 {
-			.widget-title {
-				border-top: none;
-			}
-		}
-	}
-	.partner-carousel {
-		margin: 15px 0 30px;
-		padding: 0 25px;
-		.prev-button,
-		.next-button {
-			font-size: 26px;
-		}
-		.prev-button {
-			left: 0;
-		}
-		.next-button {
-			right: 0; 
-		}
-	}
+.homeWrapper {
+    padding: 0 !important;
+    @include breakpoint(medium) {
+        top: -37px;
+        position: relative;
+    }
+    @include breakpoint(large) {
+        background-position: 100% 423px;
+    }
+    
+    .widget-block {
+           h2 {
+                border-bottom: 4px solid #067747;
+                color: #2b2b2d;
+                font-family: 'Oswald', sans-serif;
+                font-size: 26px;
+                line-height: 1.5;
+                margin-bottom: 10px;
+               border-top:0px !important;
+               margin:0px !important;
+               padding-top:0px;
+               padding-bottom:0px;
+           }
+    }
+    .columnOuterWrapper:nth-of-type(2) {
+        margin-bottom: 40px;
+        .editable-text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: $text-grey;
+            font-size: 16px;
+            h2 {
+                color: $black;
+                font-family: 'Oswald', sans-serif;
+                font-size: 34px;
+                @include breakpoint(medium) {
+                    font-size: 44px;
+                }
+            }
+        }
+        .map-button {
+            margin: 15px 0 10px;
+            display: inline-block;
+            @include yellow-button;
+            @include breakpoint(small) {
+                margin: 0;
+                position: absolute;
+                top: 57px;
+                left: 7%;
+                opacity: 0;
+                transition: opacity linear 0.25s;
+                @include button(#ffffff, $orange, $button-red, 3px);
+            }
+            @include breakpoint(medium) {
+                left: 5%;
+            }
+            @include breakpoint(large) {
+                left: 15%;
+            }
+        }
+        .col-md-3:first-child {
+            text-align: center;
+            @include breakpoint(small) {
+                text-align: left;
+                img {
+                    transition: opacity linear 0.25s;
+                }
+                &:hover {
+                    img {
+                        opacity: 0.5;
+                    }
+                    .map-button {
+                        opacity: 1.0;
+                    }
+                }
+            }
+        }
+        .col-md-4 {
+            padding-right: 0;
+        }
+        #p_lt_wpzPagePlaceholder_pageplaceholder_p_lt_wpzHero_ColumnsSmartCity_ColumnsSmartCity_l1_Link_SmartCity2_btnElem_hyperLink {
+            display: block;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        .welcome-button {
+            @include button(#fff, $green, $footer-green, 3px);
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .widget-block {
+            .widget-title {
+                font-family: 'TideSans-500Dudette';
+                font-size: 20px;
+                font-weight: bold;
+                color: $black;
+                line-height: 24px;
+                border-top: 4px solid $black;
+                margin-top: 20px;
+                padding-top: 10px;
+                @include breakpoint(small) {
+                    border-top: 4px solid $orange;
+                    font-family: 'TideSans-300LilKahuna';
+                    font-size: 16px;
+                    color: $dark-grey;
+                    margin-bottom: 10px;
+                }
+                a {
+                    display: block;
+                    color: $text-orange;
+                    font-size: 15px;
+                    font-family: 'Avenir LT W01 95 Black';
+                    font-weight: normal;
+                    @include breakpoint(small) {
+                        display: inline;
+                        float: right;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        &:hover {
+                            color: $button-red;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .ConnectWithUs {
+                .Staff {
+                    font-family: Arial, sans-serif;
+                    .Controls {
+                        .button {
+                            background: $text-orange;
+                        }
+                    }
+                    .FirstName,
+                    .LastName {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: $text-grey;
+                        display: inline;
+                    }
+                    .LastName {}
+                    .Title {
+                        font-size: 11px;
+                        color: #737373;
+                    }
+                }
+            }
+        }
+    }
+    .columnOuterWrapper:nth-of-type(3) {
+        margin-bottom: 25px;
+        @include breakpoint(medium) {
+            margin: auto;
+        }
+        .col-md-4 {
+            margin-bottom: 25px;
+            @include breakpoint(medium) {
+                margin-bottom: 25px;
+            }
+        }
+        .mCSB_scrollTools .mCSB_draggerRail {
+            background: #E4E4E4;
+        }
+        .widget-title {
+            @extend %home-page-header;
+            a {
+                bottom: -50px;
+                display: none;
+                left: 15px;
+                position: absolute;
+                text-transform: lowercase;
+                @include breakpoint(medium) {
+                    background: none;
+                    display: inline-block;
+                    float: right;
+                    font-family: Arial, sans-serif;
+                    font-size: 11px;
+                    padding: 22px 0 0;
+                    position: static;
+                    &:hover {
+                        background: none;
+                        color: $black;
+                    }
+                }
+            }
+        }
+        .editable-text {
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #ffffff;
+            h3 {
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            ul {
+                padding: 5px 16px;
+                li {
+                    padding: 0 0 5px;
+                    @include breakpoint(medium) {
+                        padding: 0;
+                    }
+                }
+                a {
+                    color: #ff941f;
+                    font-weight: bold;
+                    &:hover {
+                        color: #EF4036;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        a.view-all {
+            @include button(#fff, $green, $footer-green, 3px);
+            bottom: -50px;
+            display: inline-block;
+            left: 15px;
+            position: absolute;
+            @include breakpoint(small) {
+                background: none;
+                color: $green;
+                font-family: Arial, sans-serif;
+                font-size: 11px;
+                left: 86%;
+                padding: 0;
+                position: absolute;
+                text-transform: none;
+                top: 20px;
+                &:hover {
+                    background: none;
+                    color: $black;
+                }
+            }
+        }
+        .news-repeater {
+            margin-bottom: 80px;
+            @include breakpoint(small) {
+                margin: 0;
+            }
+        }
+        .properties-list {
+            color: $text-grey;
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            list-style: none;
+            margin: 20px 0 0;
+            padding: 0;
+            overflow: hidden;
+            @include breakpoint(small) {
+                height: 290px;
+            }
+            .featured-property {
+                margin: 0 0 25px;
+            }
+            .title {
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .featured-property-image {
+                clear: both;
+                float: left;
+                margin-right: 15px;
+            }
+        }
+        ul.news-list {
+            color: $text-grey;
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            list-style: none;
+            margin: 20px 0 85px;
+            padding: 0;
+            overflow: hidden;
+            @include breakpoint(small) {
+                height: 290px;
+            }
+            li.news-item {
+                margin-bottom: 20px;
+                &:not(:first-child) {
+                    display: none;
+                    @include breakpoint(small) {
+                        display: block;
+                    }
+                }
+            }
+            .date {
+                font-size: 12px;
+                font-weight: 700;
+            }
+            .title {
+                color: $green;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 22px;
+                margin: 5px 0 10px;
+                a {
+                    color: $green;
+                }
+            }
+            .description {
+                line-height: 1.25;
+                margin: 0 0 10px;
+            }
+            a.link {
+                color: $green;
+                &:hover {
+                    color: $footer-green;
+                    text-decoration: none;
+                }
+            }
+        }
+        .SuccessStories_RegionalHighlights {
+            height: 295px;
+            .successStoryContent {
+                font-family: 'Roboto', sans-serif;
+                .Title {
+                    color: $green;
+                    float: left;
+                    font-size: 16px;
+                    font-weight: bold;
+                    padding-top: 12px;
+                }
+                .Description {
+                    color: $text-grey;
+                    font-size: 13px;
+                    float: left;
+                    a {
+                        color: $green;
+                        &:hover {
+                            color: $black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .columnOuterWrapper:nth-of-type(4) {
+        @include breakpoint(medium) {
+            margin: auto;
+        }
+        .editable-text {
+            @extend %home-page-header;
+        }
+        img {
+            margin: 0 auto;
+        }
+        .col-md-4 {
+            .widget-title {
+                border-top: none;
+            }
+        }
+    }
+    .partner-carousel {
+        margin: 15px 0 30px;
+        padding: 0 25px;
+        .prev-button, .next-button {
+            font-size: 26px;
+        }
+        .prev-button {
+            left: 0;
+        }
+        .next-button {
+            right: 0;
+        }
+    }
 }
 
 #connect-wrapper {
-	background: #f5f5f5;
-	padding-top: 15px;
-	@include breakpoint(large) {
-		padding-top: 20px;
-	}
+    background: #f5f5f5;
+    padding-top: 15px;
+    @include breakpoint(large) {
+        padding-top: 20px;
+    }
 }
 
 .connect-text {
-	@extend %home-page-header;
-	border: 0;
-	font-size: 22px;
-	padding-left: 30px;
-	@include breakpoint(large) {
-		font-size: 26px;
-	}
-	&:before {
-		color: $green;
-		content: '\f0da';
-		font-family: 'FontAwesome';
-		margin-right: 10px;
-	}
+    @extend %home-page-header;
+    border: 0;
+    font-size: 22px;
+    padding-left: 30px;
+    @include breakpoint(large) {
+        font-size: 26px;
+    }
+    &:before {
+        color: $green;
+        content: '\f0da';
+        font-family: 'FontAwesome';
+        margin-right: 10px;
+    }
 }
 
 .connect-social-icons {
-	float: left;
-	font-size: 19px;
-	text-align: center;
-	@include breakpoint(small) {
-		text-align: right;
-	}
-	ul {
-		display: inline-block;
-		list-style: none;
-		padding: 0;
-		li {
-			float: left;
-		}
-	}
-	li a {
-		color: $icon-grey;
-		display: inline-block;
-		font-size: 30px;
-		margin: 0 10px 0 0;
-		padding-top: 2px;
-		@include breakpoint(large) {
-			padding-top: 7px;
-		}
-		&:hover {
-			color: $dark-grey;
-		}
-	}
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    @include breakpoint(small) {
+        text-align: right;
+    }
+    ul {
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        li {
+            float: left;
+        }
+    }
+    li a {
+        color: $icon-grey;
+        display: inline-block;
+        font-size: 30px;
+        margin: 0 10px 0 0;
+        padding-top: 2px;
+        @include breakpoint(large) {
+            padding-top: 7px;
+        }
+        &:hover {
+            color: $dark-grey;
+        }
+    }
 }
 
-.HeroImageSlider .rsDefault, .HeroImageSlider .rsDefault .rsOverflow, .HeroImageSlider .rsDefault .rsSlide, .HeroImageSlider .rsDefault .rsVideoFrameHolder, .HeroImageSlider .rsDefault .rsThumbs {
+.HeroImageSlider .rsDefault,
+.HeroImageSlider .rsDefault .rsOverflow,
+.HeroImageSlider .rsDefault .rsSlide,
+.HeroImageSlider .rsDefault .rsVideoFrameHolder,
+.HeroImageSlider .rsDefault .rsThumbs {
     width: 100% !important;
     min-height: 350px;
 }
 
 .homeWrapper .HeroImageSlider .rsDefault .rsBullets {
-	@media (max-width: 768px) {
-		display: none;
-	}
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
